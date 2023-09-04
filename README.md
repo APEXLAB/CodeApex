@@ -96,7 +96,7 @@ First, clone the this repo:
 git clone https://github.com/SJTU-LIT/ceval.git
 ```
 
-The data is in Programming_Comprehension/testcases and Code_Generation/testcases, whose format is json.
+The data is in ProgrammingComprehension/testcases and CodeGeneration/data, whose format is json.
 
 The format of programming comprehension is:
 
@@ -118,7 +118,18 @@ The format of programming comprehension is:
 The format of code generation is:
 
 ```
-
+[
+   {
+        "id": 1964,
+        "problem_description": "Given 4 positive integers a, b, c, d, calculate the value of the expression (a*b*c)%d, where % represents the modulo operation.",
+        "function_declaration": "int calculate_remainder(int a, int b, int c, int d)",
+        "code_context": "#include<cstdio>\n\n// function start\n\n// function end\n\nint main(){\n    int a,b,c,d;\n    scanf(\"%d%d%d%d\",&a,&b,&c,&d);\n    // calling start\n    int result = calculate_remainder(a, b, c, d);\n    // calling end\n    printf(\"%d\", result);\n}",
+        "example": "[{\"input\": \"2 3 4 5\", \"output\": \"4\"}]",
+        "time_limit": 1000,
+        "memory_limit": 256
+    },
+    ...
+]
 ```
 
 

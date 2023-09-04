@@ -1,0 +1,2252 @@
+[
+    {
+        "question": "If there is a definition: char str[] = {'h','1','2','0','a','b'}; const char *p = str; Which of the following statements is correct:____\n",
+        "A": "p[2] = 's'",
+        "B": "strcpy(str,\"123456\")",
+        "C": "strcpy(p,\"abc\")",
+        "D": "strcpy(str,\"abc\")",
+        "category": 1,
+        "id": 0
+    },
+    {
+        "question": "After executing the following statement, the value of s is ____\n```s = 0;for (int i = 1; i <= 10 ++i)\nif (i % 2 == 0 || i % 3 == 0) continue;\nelse s += i;```",
+        "A": "55",
+        "B": "49",
+        "C": "13",
+        "D": "1",
+        "category": 1,
+        "id": 1
+    },
+    {
+        "question": "If ```char x=97;```, how many characters does the variable x contain?",
+        "A": "1",
+        "B": "2",
+        "C": "4",
+        "D": "8",
+        "category": 0,
+        "id": 2
+    },
+    {
+        "question": "Execute the following statement:\n```int x; char s[100]; cin>>x; cin.get(); cin>>s;```\nWhen the user inputs: 2021 (carriage return) Hello (space) Sjtu (carriage return), the value in string s is:____",
+        "A": "\"Sjtu\"",
+        "B": "\"Hello Sjtu\"",
+        "C": "\"Hello\"",
+        "D": "\"H\"",
+        "category": 1,
+        "id": 3
+    },
+    {
+        "question": "Which two expressions in the following options have the same result?",
+        "A": "3/2 and 3.0/2.0",
+        "B": "3/2 and 3.0/2",
+        "C": "3/2.0 and 3.0/2.0",
+        "D": "3/2.0 and 3/2",
+        "category": 0,
+        "id": 4
+    },
+    {
+        "question": "Which one of the following numbers is an octal number?",
+        "A": "0x1g",
+        "B": "010",
+        "C": "080",
+        "D": "01b",
+        "category": 0,
+        "id": 5
+    },
+    {
+        "question": "The incorrect statement among the following is ____",
+        "A": "The meaning of an algorithm working in-place is that it does not require any additional auxiliary space.",
+        "B": "Among algorithms with the same scale n, an algorithm with a complexity of O(n) is always better in terms of time than an algorithm with a complexity of O(2n).",
+        "C": "The so-called time complexity refers to an upper bound estimation of the algorithm's execution time in the worst case.",
+        "D": "The higher the level of implementation",
+        "category": 0,
+        "id": 6
+    },
+    {
+        "question": "If the most frequently used operations for a linear table are to access the value of the i-th element and its predecessor and successor, in order to improve efficiency, the ____ storage method should be adopted.",
+        "A": "Singly linked list",
+        "B": "Doubly linked list",
+        "C": "Circular linked list",
+        "D": "Sequential list",
+        "category": 0,
+        "id": 7
+    },
+    {
+        "question": " In the following statement, the error is ____. I. The meaning of the algorithm working in place is that it does not require any additional auxiliary space. II. At the same scale n, algorithms with complexity O (n) always outperform algorithms with complexity O (2n) in terms of time Algorithm. III. The so-called time complexity refers to an upper bound for estimating algorithm execution time in the worst-case scenario. IV. The higher the implementation level of the same algorithm, the lower the execution efficiency.",
+        "A": "I",
+        "B": "I, II",
+        "C": "I, IV",
+        "D": "III",
+        "category": 0,
+        "id": 8
+    },
+    {
+        "question": "If a linear table has n elements, strictly speaking, the operation ____ is more efficient to implement on a sequential list than on a linked list. I. Output the value of the i-th (1\u2264i\u2264n) element. II. Swap the values of the 3rd and 4th elements. III. Sequentially output the values of these n elements.",
+        "A": "I",
+        "B": "I, III",
+        "C": "I, II",
+        "D": "II, III",
+        "category": 2,
+        "id": 9
+    },
+    {
+        "question": "Among the following statements about linear tables, the correct one is ____. The sequential storage method can only be used to store linear structures. II. The time of taking the i-th element of the linear table is related to the size of i. III. Static linked lists require the allocation of large continuous space, and insertion and deletion do not require moving elements. IV. The time complexity of inserting a new node into an ordered single chain table with a length of n while maintaining order is O (n). V. If a single linked list is used to represent a queue, a circular linked list with a trailing pointer should be used",
+        "A": "\u2160\u3001\u2161",
+        "B": "\u2160\u3001\u2162\u3001\u2163\u3001\u2164",
+        "C": "\u2163\u3001\u2164",
+        "D": "\u2162\u3001\u2163\u3001\u2164",
+        "category": 0,
+        "id": 10
+    },
+    {
+        "question": "The lowest time complexity to create a sorted singly linked list from a one-dimensional array with n elements is ______",
+        "A": "O(1)",
+        "B": " O(n)",
+        "C": "O(n^2)",
+        "D": "O(nlog2n)",
+        "category": 1,
+        "id": 11
+    },
+    {
+        "question": "Which of the following is the least suitable as a linked stack if the linked list does not have a head node and all operations are performed at the head of the list?\n",
+        "A": "Doubly linked list with only a head node pointer and no tail pointer",
+        "B": "Doubly linked list with only a tail node pointer and no head pointer",
+        "C": "Singly linked list with only a head node pointer and no tail pointer",
+        "D": "Singly linked list with only a tail node pointer and no head",
+        "category": 0,
+        "id": 12
+    },
+    {
+        "question": "Use S for stack operation and X for stack operation. If the stack order of elements is 1234, in order to obtain the stack order of 1342, the corresponding operation sequences for S and X are____",
+        "A": "SXSXSSXX",
+        "B": "SSSXXSXX",
+        "C": "SXSSXXSX",
+        "D": "SXSSXSXX",
+        "category": 1,
+        "id": 13
+    },
+    {
+        "question": "The storage space of the circular queue is an array A[21], where \"front\" points to the position before the front element, and \"rear\" points to the rear element. Assuming the current values of \"front\" and \"rear\" are 8 and 3 respectively, the length of the queue is ____.",
+        "A": "5",
+        "B": "6",
+        "C": "16",
+        "D": "17",
+        "category": 1,
+        "id": 14
+    },
+    {
+        "question": "The most suitable linked list for use as a queue is ____.",
+        "A": "Circular singly linked list with head and tail pointers",
+        "B": "Non-circular singly linked list with head and tail pointers",
+        "C": "Singly linked list with only head pointer",
+        "D": "Circular singly linked list with only head pointer",
+        "category": 0,
+        "id": 15
+    },
+    {
+        "question": "Which of the following is not a possible dequeue sequence if elements a, b, c, d, e are enqueued in a queue that allows enqueue operations at both ends but only allows dequeue operations at one end?",
+        "A": "b,a,c,d,e",
+        "B": "d,b,a,c,e",
+        "C": "d,b,c,a,e",
+        "D": "e,c,b,a,d",
+        "category": 1,
+        "id": 16
+    },
+    {
+        "question": "The value of the next array for the string 'ababaaababaa' is ____.",
+        "A": "01234567899",
+        "B": "012121111212",
+        "C": "011234223456",
+        "D": "0123012322345",
+        "category": 1,
+        "id": 17
+    },
+    {
+        "question": "The next array of the string 'ababaaababaa' is ____",
+        "A": "-1,0,1,2,3,4,5,6,7,8,8,8",
+        "B": "-1,0,1,0,1,0,0,0,0,1,0,1",
+        "C": "-1,0,0,1,2,3,1,1,2,3,4,5",
+        "D": "-1,0,1,2,-1,0,1,2,1,1,2,3",
+        "category": 1,
+        "id": 18
+    },
+    {
+        "question": "The nextval array of the string 'ababaaababaa' is ____",
+        "A": "0,1,0,1,1,2,0,1,0,1,0,2",
+        "B": "0,1,0,1,1,4,1,1,0,1,0,2",
+        "C": "0,1,0,1,0,4,2,1,0,1,0,4",
+        "D": "0,1,1,1,0,2,1,1,0, 1,0,4",
+        "category": 1,
+        "id": 19
+    },
+    {
+        "question": "The main string T='abaabaabcabaabc' and the pattern string S='abaabc'. Using the KMP algorithm for pattern matching, the number of single character comparisons performed during the matching process until a successful match is found is ____.",
+        "A": "9",
+        "B": "10",
+        "C": "12",
+        "D": "15",
+        "category": 1,
+        "id": 20
+    },
+    {
+        "question": "For a tree with n nodes and a degree of 4,____",
+        "A": "The height of the tree is at most n-3.",
+        "B": "The height of the tree is at most n-4.",
+        "C": "There are at most 4(i-1) nodes on the i-th level.",
+        "D": "There is at least one level with exactly 4 nodes.",
+        "category": 1,
+        "id": 21
+    },
+    {
+        "question": "In a tree T with a degree of 4, if there are 20 nodes with a degree of 4, 10 nodes with a degree of 3, 1 node with a degree of 2, and 10 nodes with a degree of 1, the number of leaf nodes in tree T is ____",
+        "A": "41",
+        "B": "82",
+        "C": "113",
+        "D": "122",
+        "category": 1,
+        "id": 22
+    },
+    {
+        "question": "The correct statement among the following is____",
+        "A": "In a complete binary tree, the left sibling (if exists) of a leaf node is always not a leaf node.",
+        "B": "For any binary tree, the number of leaf nodes is equal to the number of nodes with degree 2 minus 1, that is n0=n2-1.",
+        "C": "Complete binary trees are not suitable for sequential storage structure, only full binary trees are suitable for sequential storage structure.",
+        "D": "In a binary tree with nodes numbered in a complete binary tree sequence, the left child of the i-th node is numbered 2i",
+        "category": 0,
+        "id": 23
+    },
+    {
+        "question": "The height h of a binary tree with 1025 nodes is____",
+        "A": "11",
+        "B": "10",
+        "C": "11~1025",
+        "D": "10~1024",
+        "category": 1,
+        "id": 24
+    },
+    {
+        "question": "A complete binary tree with 124 leaf nodes can have a maximum of ____ nodes.",
+        "A": "247",
+        "B": "248",
+        "C": "249",
+        "D": "250",
+        "category": 1,
+        "id": 25
+    },
+    {
+        "question": "A disconnected undirected graph with 28 edges has at least ____ vertices.",
+        "A": "7",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "category": 1,
+        "id": 26
+    },
+    {
+        "question": "For a graph with n vertices: if it is a connected undirected graph, the minimum number of edges is ____; if it is a strongly connected directed graph, the minimum number of edges is ____.",
+        "A": "n-1, n",
+        "B": "n-1, n(n-1)",
+        "C": "n, n",
+        "D": "n, n(n-1)",
+        "category": 1,
+        "id": 27
+    },
+    {
+        "question": "If a undirected graph G = (V, E) contains 7 vertices and needs to be connected in any scenario, the minimum number of edges required is ______",
+        "A": "6",
+        "B": "15",
+        "C": "16",
+        "D": "21",
+        "category": 1,
+        "id": 28
+    },
+    {
+        "question": "The given undirected graph G has 16 edges, with 3 vertices having a degree of 4 and 4 vertices having a degree of 3, and the degrees of all other vertices are less than 3. The minimum number of vertices in graph G is at least ____.",
+        "A": "10",
+        "B": "11",
+        "C": "13",
+        "D": "15",
+        "category": 1,
+        "id": 29
+    },
+    {
+        "question": "If a sorted list L with a length of 16 is used, and the binary search method is used to search for an element that does not exist in L, the maximum number of key comparisons is ____.",
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "category": 1,
+        "id": 30
+    },
+    {
+        "question": "Construct binary search trees with the following sequences, the result that is different from the result constructed with the other 3 sequences is:",
+        "A": "(100,80,90,60,120,110,130)",
+        "B": "(100,120,110,130,80,60,90)",
+        "C": "(100,60,80,90,120,110,130)",
+        "D": "(100,80,60,90,120,130,110)",
+        "category": 1,
+        "id": 31
+    },
+    {
+        "question": "When searching for a node with a certain key in a binary search tree with n nodes, the maximum number of comparisons made is ____.",
+        "A": "n/2",
+        "B": "log2n",
+        "C": "log2n+1",
+        "D": "n",
+        "category": 1,
+        "id": 32
+    },
+    {
+        "question": "Which of the following keyword sequences cannot form a search path in a binary search tree?",
+        "A": "95,22,91,24,94,71",
+        "B": "92,20,91,34,88,35",
+        "C": "21,89,77,29,36,38",
+        "D": "12,25,71,68,33,34",
+        "category": 1,
+        "id": 33
+    },
+    {
+        "question": "There is a balanced binary tree (AVL) without repeated keywords, and a sequence in descending order can be obtained by inorder traversal. Which of the following statements about the balanced binary tree is correct ____",
+        "A": "The degree of the root node is always 2.",
+        "B": "The smallest element in the tree is always a leaf node.",
+        "C": "The last inserted element is always a leaf node.",
+        "D": "The largest element in the tree always has no left subtree.",
+        "category": 1,
+        "id": 34
+    },
+    {
+        "question": "What is the value of the expression ++a||-b&&++c if a=1, b=2, and c=3?",
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "category": 2,
+        "id": 35
+    },
+    {
+        "question": "Which of the following expressions is correct?",
+        "A": "++(a++)",
+        "B": "a++b",
+        "C": "a+++b",
+        "D": " a++++b",
+        "category": 0,
+        "id": 36
+    },
+    {
+        "question": "The purpose of using the break statement in a loop statement is to ____.",
+        "A": "end the current iteration of the loop",
+        "B": "end the current loop",
+        "C": "end all loops",
+        "D": "end the execution of the program",
+        "category": 0,
+        "id": 37
+    },
+    {
+        "question": "The correct expression that represents when i is not equal to 0 is_____",
+        "A": "i",
+        "B": "!i",
+        "C": "i<>0",
+        "D": "i=0",
+        "category": 0,
+        "id": 38
+    },
+    {
+        "question": "The number of times the following loop statement is executed is ____. while (!1) cout << \"ok!\";",
+        "A": "0 times",
+        "B": "1 time",
+        "C": "2 times",
+        "D": "infinite times",
+        "category": 2,
+        "id": 39
+    },
+    {
+        "question": "In C++, the correct statement about array subscripts is____",
+        "A": "The number of values used to initialize an array can be greater than the number of elements defined in the array, and the excess will be ignored.",
+        "B": "The number of values used to initialize an array can be less than the number of elements defined in the array.",
+        "C": "The number of values used to initialize an array must be equal to the number of elements defined in the array.",
+        "D": "The value of the initialization array can be omitted by skipping commas. For example, int a [3]={1,2};",
+        "category": 0,
+        "id": 40
+    },
+    {
+        "question": "If the array is defined as int a[2][2]={1,2,3,4}; then a[1][0]%3 is ____",
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "4",
+        "category": 1,
+        "id": 41
+    },
+    {
+        "question": "Given the array definition: `int a[][2]={5,6,1,2,3,8};`, what can be used to calculate the array index?",
+        "A": "sizeofA:/sizeof(int)",
+        "B": "sizeof(a[])/sizeof(3)",
+        "C": "sizeof(a[][2])/sizeof(int)",
+        "D": "sizeofA:/sizeof(a[2][1])",
+        "category": 1,
+        "id": 42
+    },
+    {
+        "question": "The correct statement among the following is ____",
+        "A": "In a C++ program, the main() function must come before other functions, and functions can be defined within other functions.",
+        "B": "In a C++ program, there is no restriction on the position of the main() function, and functions cannot be defined within other functions.",
+        "C": "In a C++ program, the main() function must come before other functions, and functions cannot be defined within other functions.",
+        "D": "In a C++ language program, the main() function must be after other functions, and functions can be nested within a function.",
+        "category": 0,
+        "id": 43
+    },
+    {
+        "question": "The incorrect statement about the return statement is ____",
+        "A": "There may or may not be a return statement in a function definition.",
+        "B": "There can be multiple return statements in a function definition.",
+        "C": "Each return statement in a function definition may return multiple values.",
+        "D": "If the function type is not void, there must be a return statement in the function definition.",
+        "category": 0,
+        "id": 44
+    },
+    {
+        "question": "The return value type of a function in the C++ language is determined by ______.",
+        "A": "the expression type in the return statement",
+        "B": "the type of the calling function",
+        "C": "the function type specified when defining the function",
+        "D": "None of the above statements are correct",
+        "category": 0,
+        "id": 45
+    },
+    {
+        "question": "The correct description about default values for parameters in C++ is:",
+        "A": "Default values for parameters can only be set during function definition.",
+        "B": "When setting default values for parameters, they should be set from right to left.",
+        "C": "When setting default values for parameters, all parameters should be set.",
+        "D": "After setting default values for parameters, the function cannot assign values to the parameters when called.",
+        "category": 0,
+        "id": 46
+    },
+    {
+        "question": "The purpose of using overloaded functions in programming is to____",
+        "A": "Use the same function name to call functions with similar functionality but different parameters",
+        "B": "Share program code",
+        "C": "Improve the program's running speed",
+        "D": "Save storage space",
+        "category": 0,
+        "id": 47
+    },
+    {
+        "question": "When calling an overloaded function, the following option cannot be used as the basis for determining which overloaded function to call:",
+        "A": "Function name",
+        "B": "Number of parameters",
+        "C": "Function type",
+        "D": "Parameter type",
+        "category": 0,
+        "id": 48
+    },
+    {
+        "question": "When an array is used as a formal parameter of a function and the array name is used as an actual argument of the function, the value passed to the function is the ____.",
+        "A": "values of each element in the array",
+        "B": "number of elements in the array",
+        "C": "value of the first element in the array",
+        "D": "memory address of the array",
+        "category": 0,
+        "id": 49
+    },
+    {
+        "question": "To make the variable i an alias for the int variable x, the correct definition statement is____",
+        "A": "int &i=x;",
+        "B": "int i=&x;",
+        "C": "int &i=&x;",
+        "D": "int i=x;",
+        "category": 2,
+        "id": 50
+    },
+    {
+        "question": "Which of the following pointer expressions is not equivalent to accessing a[i][j] with subscripts?",
+        "A": "*(a+i+j)",
+        "B": "(*(a+i))[j]",
+        "C": "*(*(a+i)+j)",
+        "D": "*(a[i]+j)",
+        "category": 2,
+        "id": 51
+    },
+    {
+        "question": "Which of the following expressions cannot represent the address of str[1] if the string char str[5] is defined as:",
+        "A": "str+1",
+        "B": "str++",
+        "C": "&str[0]+1",
+        "D": "&str[1]",
+        "category": 2,
+        "id": 52
+    },
+    {
+        "question": "Given: ```int a[]={1,2,3,4,5,6},*p=a,x\uff1b```\n\nThe statement in which the value of x is 5 is ____\n",
+        "A": "p+=3;x=*(p++);",
+        "B": "p+=5;x=*p++;",
+        "C": "p+=4;x=*++p;",
+        "D": "p+=4; x=*p++;",
+        "category": 2,
+        "id": 53
+    },
+    {
+        "question": "If there is an explanation: int i, j = 6, *p; p = &i; then the statement equivalent to i = j is ____",
+        "A": "i = *p;",
+        "B": "*p = *&j;",
+        "C": "i = &j;",
+        "D": "i = **p;",
+        "category": 2,
+        "id": 54
+    },
+    {
+        "question": "Which of the following statements cannot be executed correctly if p1 and p2 are pointer variables pointing to the same one-dimensional array of type int, and k is a variable of type int?",
+        "A": "k=*p1+*p2",
+        "B": "p2=k",
+        "C": "p1=p2",
+        "D": "k=*p1*(*p2);",
+        "category": 2,
+        "id": 55
+    },
+    {
+        "question": "After executing the program segment, the value of m is ____.\n```int a[2][3]={{1,2,3},{4,5,6}};int m,*p=&a[0][0];m=(*p)*(*(p+2))*(*(p+4));```",
+        "A": "15",
+        "B": "14",
+        "C": "13",
+        "D": "12",
+        "category": 2,
+        "id": 56
+    },
+    {
+        "question": "Has the following definition, and the correct description of ptr is ____. n ` ` int (* ptr) (); ` ` `\n ",
+        "A": "ptr is a pointer variable pointing to a one-dimensional array.\n",
+        "B": "ptr is a 1-pointer variable pointing to int data.\n",
+        "C": "ptr is a pointer to a function that returns an int data.\n",
+        "D": "ptr is a function name whose return value is a pointer to int data.",
+        "category": 2,
+        "id": 57
+    },
+    {
+        "question": "Which of the following options is not a legal integer constant?\n",
+        "A": "288",
+        "B": "288L",
+        "C": "0288",
+        "D": "0x288",
+        "category": 1,
+        "id": 58
+    },
+    {
+        "question": "The number of iterations for the loop statement ```for (k = 5; k = 0; --k);``` is____.",
+        "A": "0",
+        "B": "5",
+        "C": "6",
+        "D": "infinite",
+        "category": 2,
+        "id": 59
+    },
+    {
+        "question": "What is the number of times the constructor of A is called when calling f(b[1], b, 2, b[0])?",
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "category": 1,
+        "id": 60
+    },
+    {
+        "question": "If there are definitions: ```char *p = \"h12\\0ab\", str[] = \"h12\\0ab\";```, the values of sizeof(p), sizeof(str), and strlen(p) are____",
+        "A": "4, 4, 3",
+        "B": "7, 7, 7",
+        "C": "4, 8, 7",
+        "D": "4, 7, 3",
+        "category": 2,
+        "id": 61
+    },
+    {
+        "question": "The invalid overloaded operator function name among the following options is ____",
+        "A": "operator!",
+        "B": "operator()",
+        "C": "operator@",
+        "D": "operator!=",
+        "category": 2,
+        "id": 62
+    },
+    {
+        "question": "If m=1, n=1, what are the values of m and n after executing the expression (m--) || (n *= m)?",
+        "A": "1, 0",
+        "B": "1, 1",
+        "C": "0, 0",
+        "D": "0, 1",
+        "category": 2,
+        "id": 63
+    },
+    {
+        "question": "The correct prototype for the copy constructor of class A is ______",
+        "A": "A(A &other)",
+        "B": "A(const A &other)",
+        "C": "A(A other)",
+        "D": "void A(A &other)",
+        "category": 2,
+        "id": 64
+    },
+    {
+        "question": "Which of the following options is an illegal character constant?",
+        "A": "'d'",
+        "B": "'t'",
+        "C": "'\\123'",
+        "D": "'\\'",
+        "category": 0,
+        "id": 65
+    },
+    {
+        "question": "The decimal value of the integer constant 0101 in C++ is ____",
+        "A": "5",
+        "B": "101",
+        "C": "65",
+        "D": "4097",
+        "category": 0,
+        "id": 66
+    },
+    {
+        "question": "The output of the statement cout << \"abc0\\0def\" is____",
+        "A": "abc0\\0def\\",
+        "B": "abc0\\0def",
+        "C": "abc",
+        "D": "abc0",
+        "category": 1,
+        "id": 67
+    },
+    {
+        "question": "If there is a function f(const A &x, A &y), and there is a definition A b(2), what is the number of times the constructor of A is called when f(4, b) is called?",
+        "A": "Illegal call, compilation error",
+        "B": "0",
+        "C": "1",
+        "D": "2",
+        "category": 1,
+        "id": 68
+    },
+    {
+        "question": "When executing the following statement, the number of lines of output is:____\nint s = 1;while (s < 10) {s *= 2;if (s % 4 != 0) continue;cout << s << endl;}",
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "category": 2,
+        "id": 69
+    },
+    {
+        "question": "If there is a statement \"int *p = NULL; cout << p << ' ' << *p;\", the result is ____",
+        "A": "The address of p is NULL",
+        "B": "The address of p is 0",
+        "C": "0 0",
+        "D": "Runtime error",
+        "category": 2,
+        "id": 70
+    },
+    {
+        "question": "If there is a definition: char str[] = {'h', '1', '2', '\\0', 'a', 'b'}; then the values of sizeof(str) and strlen(str) are____",
+        "A": "7, 3",
+        "B": "7, 7",
+        "C": "6, 3",
+        "D": "6, 6",
+        "category": 2,
+        "id": 71
+    },
+    {
+        "question": "Which of the following operators can be overloaded as both a member function and a friend function of a class?",
+        "A": "<<",
+        "B": "+=",
+        "C": "=",
+        "D": "()",
+        "category": 0,
+        "id": 72
+    },
+    {
+        "question": "The statement that cannot output the ASCII code of ch is ____.",
+        "A": "cout << (int)ch;",
+        "B": "cout << int(ch);",
+        "C": "cout << ch;",
+        "D": "cout << (x = ch);",
+        "category": 2,
+        "id": 73
+    },
+    {
+        "question": "If the following definitions exist, which of the following is an incorrect reference to the member of an array element?\n\nstruct Student{int id; char *name; Student(int len = 10) {name = new char[len];} };Student stu [2],*p; p=stu;",
+        "A": "p[1].id",
+        "B": "p->id",
+        "C": "(*p).name",
+        "D": "*p.name",
+        "category": 2,
+        "id": 74
+    },
+    {
+        "question": "If the * operator of class X is overloaded as a friend function to multiply two objects of class X and return the result of the multiplication, the declaration statement of this function is ____",
+        "A": "X operator*(const X & a , const X & b);",
+        "B": "X operator*(const X & a) const;",
+        "C": "X & operator*(const X & a , const X & b);",
+        "D": "X & operator*( const X & a) const;",
+        "category": 2,
+        "id": 75
+    },
+    {
+        "question": "The expression to determine if the content of the character type variable ch is a numeric character is____",
+        "A": "'0'<= ch <= '9'",
+        "B": "(ch >= '0') && (ch <= '9')",
+        "C": "(ch >='0') || (ch <= '9')",
+        "D": "(ch >= 0) && ( ch <= 9)",
+        "category": 2,
+        "id": 76
+    },
+    {
+        "question": "Which of the following statements, if executed immediately after the definition \"char *s;\", will not cause a runtime error?",
+        "A": "s ={\"SJTU\"};",
+        "B": "s =\"SJTU\";",
+        "C": "strcpy(s, \"SJTU\");",
+        "D": "s[0] = 'S';",
+        "category": 2,
+        "id": 77
+    },
+    {
+        "question": "Which of the following statements about function definitions is incorrect?",
+        "A": "A program cannot have functions with the same name.",
+        "B": "Functions of void type can also use the return statement.",
+        "C": "The number of actual arguments in a function call can be less than the number of formal parameters.",
+        "D": "The type of the expression after return must match the return type of the function.",
+        "category": 0,
+        "id": 78
+    },
+    {
+        "question": "The incorrect statement about static member functions of a class is:",
+        "A": "Can only access static members",
+        "B": "Does not have a this pointer",
+        "C": "Can only be accessed through \"ClassName::functionName\"",
+        "D": "Function definition must be written in the class",
+        "category": 0,
+        "id": 79
+    },
+    {
+        "question": "To define a global variable that is specific to the source file and not allowed to be shared by other source files, a qualifier needs to be added before defining the global variable in the file.____",
+        "A": "auto",
+        "B": "extern",
+        "C": "static",
+        "D": "register",
+        "category": 0,
+        "id": 80
+    },
+    {
+        "question": "Which of the following definitions is illegal?",
+        "A": "const int a = 10, *p = &a;",
+        "B": "int b; const int &a = b;",
+        "C": "const int a = 10 , &b = a;",
+        "D": "const int a = 10; int *p = &a;",
+        "category": 2,
+        "id": 81
+    },
+    {
+        "question": "When using the ifstream stream to define a stream object and open a disk file, the implicit open mode of the file is ______",
+        "A": "ios::in",
+        "B": "ios::out",
+        "C": "ios::in|ios::out",
+        "D": "ios::binary",
+        "category": 0,
+        "id": 82
+    },
+    {
+        "question": "Class B inherits from Class A and has a definition: A * pa; B * pb; The incorrect usage below is ____",
+        "A": "'pa=pb;",
+        "B": "pb=pa;",
+        "C": "pa=(A *) pb;",
+        "D": "pb=(B *) pa",
+        "category": 2,
+        "id": 83
+    },
+    {
+        "question": "Which of the following definitions is correct for the given class template template <class T, int L) class foo; and class A; int con = 10;?",
+        "A": "foo<int, con> obj;",
+        "B": "foo<A, con> obj;",
+        "C": "foo<int, 5> obj;",
+        "D": "foo<con, 5> obj;",
+        "category": 2,
+        "id": 84
+    },
+    {
+        "question": "The following are not object-oriented features: ____ ",
+        "A": "polymorphism",
+        "B": "inheritance",
+        "C": "generics",
+        "D": "recursion",
+        "category": 0,
+        "id": 85
+    },
+    {
+        "question": "What is the decimal representation of the result value of 10010100 + 00101111 in a computer system where integers are represented in 8-bit two's complement? ",
+        "A": "195",
+        "B": "-67",
+        "C": "-61",
+        "D": "67",
+        "category": 1,
+        "id": 86
+    },
+    {
+        "question": "If the internal code of letter A is 65, the correct output of the statement cout << 'A' + 1; is ______",
+        "A": "'A' + 1",
+        "B": "66",
+        "C": "066",
+        "D": "B",
+        "category": 1,
+        "id": 87
+    },
+    {
+        "question": "If there is a function f(A &x, const A &y), and there is a definition A b(2), what is the number of times the constructor of A is called when calling f(4, b)?",
+        "A": "Illegal call, compilation error",
+        "B": "0",
+        "C": "1",
+        "D": "2",
+        "category": 1,
+        "id": 88
+    },
+    {
+        "question": "When executing the following statement, the number of lines of output is____\nint s = 1;while (s < 5) {if (++s = 4 ) break;cout << s << endl;}",
+        "A": "0",
+        "B": "1",
+        "C": "3",
+        "D": "4",
+        "category": 2,
+        "id": 89
+    },
+    {
+        "question": "The number of times the destructor of A is executed in the given statement block {A * p1 = new A; auto_ptr<A> p2( new A); shared_ptr<A> p3( new A), p4 = p3; } is ____.",
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "category": 2,
+        "id": 90
+    },
+    {
+        "question": "In the program, when performing 1 + object a of class A, and class A has a constructor that requires an integer parameter, which of the following options is not feasible?",
+        "A": "Define a type conversion function in class A that converts to an integer.",
+        "B": "Add a type conversion function in class A that converts to a floating-point number.",
+        "C": "Add a member function in class A that overloads +.",
+        "D": "Add a friend function in class A that overloads +.",
+        "category": 0,
+        "id": 91
+    },
+    {
+        "question": "Has class A {...}; class B: public A {...}; and has a definition: A * p=new B;, the legal ones in the following statements are ____",
+        "A": "B * q=p;",
+        "B": "B b=* p;",
+        "C": "B&b=* p;",
+        "D": "A&a=* p;",
+        "category": 2,
+        "id": 92
+    },
+    {
+        "question": "If there is the following definition: const char *str[4] = {\"aaa\", \"bbb\", \"ccc\", \"ddd\"}, the statement that cannot correctly output the 4 strings is____",
+        "A": "for (int i = 0; i <4; ++ i) cout << str[i] << endl;",
+        "B": "for (int i = 0; i <4; ++ i) cout << *(str + i) << endl;",
+        "C": "for (const char **p = str; p < str + 4; ++ p) cout < p < endl;",
+        "D": "for (const char **p = str; p < str + 4; ++ p) cout < < *p < < endl;",
+        "category": 2,
+        "id": 93
+    },
+    {
+        "question": "Which of the following operator overload functions in class X has a wrong prototype?",
+        "A": "X &operator=(const X & a);",
+        "B": "X &operator=( X && a);",
+        "C": "X & operator+=( const X & a);",
+        "D": "X & operator+=( X & a);",
+        "category": 2,
+        "id": 94
+    },
+    {
+        "question": "The expression that correctly determines whether the content of the variable ch is a numeric character is:",
+        "A": "((ch >= '0') + (ch <= '9')) == 2",
+        "B": "(ch >= '0') && (ch <= '9')",
+        "C": "!((ch <'0') || (ch > '9'))",
+        "D": "!((ch <='0') || (ch > ='9'))",
+        "category": 2,
+        "id": 95
+    },
+    {
+        "question": "If there is a definition: char str1[5]; const char *p = \"abc\"; the incorrect statement is ____",
+        "A": "p = \"def\";",
+        "B": "strcpy(p, str1)",
+        "C": "p = str1;",
+        "D": "strcpy(str1,p);",
+        "category": 2,
+        "id": 96
+    },
+    {
+        "question": "If there is a function void f(A r1, const A &r2, A &r3), and A x1(2), x2(4); then the number of times A's constructor (including copy constructor) is called when calling the function f(x1, 5, x2) is ___.",
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "category": 1,
+        "id": 97
+    },
+    {
+        "question": "The incorrect statement about constant data members of a class is ______",
+        "A": "The initial value must be assigned during object construction.",
+        "B": "Any member function other than the constructor cannot modify the value of constant data members.",
+        "C": "Non-const member functions cannot access constant data members.",
+        "D": "Different objects have different constant data member values.",
+        "category": 0,
+        "id": 98
+    },
+    {
+        "question": "If you want the local variables in a function to still exist after the function execution, you need to add the qualifier ____ before defining the variable.",
+        "A": "auto",
+        "B": "extern",
+        "C": "static",
+        "D": "register",
+        "category": 0,
+        "id": 99
+    },
+    {
+        "question": "If there is a function f (int * a, const int&b, int&c) and the definitions int m; and const int n=9;, the following legal function calls are ____ ",
+        "A": "f ((&m, 5, 5) ",
+        "B": "f (&m, 5, m) ",
+        "C": "f (&n, n, n) ",
+        "D": "f (m, m, n);",
+        "category": 2,
+        "id": 100
+    },
+    {
+        "question": "Which of the following file stream objects cannot read a file?",
+        "A": "fstream obj(\"ff\"); ",
+        "B": "fstream obj(\"\"ff\", ios::binary)",
+        "C": "fstream obj(\"ff\", ios::in | ios::out)",
+        "D": "fstream obj(\"ff\", ios::in | ios::app)",
+        "category": 2,
+        "id": 101
+    },
+    {
+        "question": "Which of the following statements cannot call the derived class's display function when there are definitions: class A {public: virtual void display(); }; class B:public A { public: virtual void display();}; and B b;?",
+        "A": "A *p = &b; p->display();",
+        "B": "b.diaplay()",
+        "C": "A a = b; a.display()",
+        "D": "A &a = b; a.display()",
+        "category": 2,
+        "id": 102
+    },
+    {
+        "question": "Assuming A is a class name, which of the following is incorrect in the exception handling?",
+        "A": "catch (\u2026);",
+        "B": "catch(int);",
+        "C": "catch (A x);",
+        "D": "catch (int 5);",
+        "category": 2,
+        "id": 103
+    },
+    {
+        "question": "The statement that is incorrect is ____",
+        "A": "Polymorphism provides convenience for the extension of software systems.",
+        "B": "Inheritance is a means of code reuse and the foundation of runtime polymorphism.",
+        "C": "Derived classes cannot be abstract classes.",
+        "D": "Friend functions are global functions that are allowed to access private members of objects.",
+        "category": 0,
+        "id": 104
+    },
+    {
+        "question": "What is the decimal number corresponding to the integer constant 011?",
+        "A": "3",
+        "B": "9",
+        "C": "11",
+        "D": "17",
+        "category": 1,
+        "id": 105
+    },
+    {
+        "question": "In a certain computer system, where int is represented by 2 bytes, if int a is defined as -1, the output of cout << hex << a; is____",
+        "A": "-1",
+        "B": "\u20130x1",
+        "C": "FFFF",
+        "D": "65535",
+        "category": 1,
+        "id": 106
+    },
+    {
+        "question": "If there is a definition: int a = 5; decltype(a+0.5) b; then the type and initial value of b are ____.",
+        "A": "int 5",
+        "B": "double 5.5",
+        "C": "int random value",
+        "D": "double random value",
+        "category": 2,
+        "id": 107
+    },
+    {
+        "question": "If there is a definition: int a[] = {1,2,3,4,5}, len = 2; After executing the expression a[len++]=0, the values of array a and len respectively are ______",
+        "A": "1,2,0,4,5 and 2",
+        "B": "1,2,0,3,5 and 3",
+        "C": "1,2,3,0,5 and 3",
+        "D": "1,0,2,3,5and3",
+        "category": 2,
+        "id": 108
+    },
+    {
+        "question": "If there is a definition: char ch; Which of the following expressions does not conform to the syntax of the C++ language?",
+        "A": "ch = 100",
+        "B": "ch = 'a' + 6",
+        "C": "ch = '''",
+        "D": "ch = '\\'",
+        "category": 2,
+        "id": 109
+    },
+    {
+        "question": "If m = 1, n = 0, then the values of m and n after executing the expression (m *= 2) || (n = m++) are____",
+        "A": "2 0",
+        "B": "2 2",
+        "C": "3 2",
+        "D": "3 3",
+        "category": 2,
+        "id": 110
+    },
+    {
+        "question": "After executing the following loop, the value of s is ____.\ns = 0; for (k = 1; k <= 100; ++k) if (k % 5) continue; else ++s;",
+        "A": "100",
+        "B": "90",
+        "C": "80",
+        "D": "20",
+        "category": 2,
+        "id": 111
+    },
+    {
+        "question": "The statement that cannot output \"abcd\" if the internal code of the letter 'a' is 97 is ______",
+        "A": "for (auto ch = 'a'; ch <='d'; ++ch) cout <<ch;",
+        "B": "for (auto ch : {'a','b','c','d'} ) cout <<ch;",
+        "C": "for (char ch = 97; ch <=100; ++ch) cout <<ch;",
+        "D": "for (auto ch = 97; ch <=100; ++ch) cout <<ch",
+        "category": 2,
+        "id": 112
+    },
+    {
+        "question": "If there is a definition char *s = \"abcde\", the illegal operation below is ____",
+        "A": "cout << *s;",
+        "B": "cout <<s[2];",
+        "C": "C. ++s",
+        "D": "++(*s)",
+        "category": 2,
+        "id": 113
+    },
+    {
+        "question": "Which of the following operations is illegal given the definition const int a = 5;?",
+        "A": "int *pa = &a;",
+        "B": "const int *pa = &a;",
+        "C": "auto b = a;",
+        "D": "decltype(a+3) b;",
+        "category": 2,
+        "id": 114
+    },
+    {
+        "question": "What is the value of the expression sizeof(str) if there is a definition: char str[] = {'h', '1', '2', '\\0', 'a', 'b'};?",
+        "A": "3",
+        "B": "4",
+        "C": "6",
+        "D": "7",
+        "category": 2,
+        "id": 115
+    },
+    {
+        "question": "If class A has a constructor with an integer parameter and a type conversion function to convert to a floating-point type, and it has a member function overload for +, the result of the expression 1 + a is____",
+        "A": "an object of class A",
+        "B": "an integer",
+        "C": "a floating-point number",
+        "D": "a compilation error",
+        "category": 1,
+        "id": 116
+    },
+    {
+        "question": "If there is a function void f(int a, int &d, char b = 'a',int *c = nullptr), and there is a definition int n;, a legal call is ____",
+        "A": "f(n, 2,'b',&n);",
+        "B": "f(n,n,'\t',&n);",
+        "C": "f(2, 3);",
+        "D": "f(2, n,&n);",
+        "category": 2,
+        "id": 117
+    },
+    {
+        "question": "There are functions void f (constA&r1, A r2, A&r3, A * pa), and A x1 (2), x2 (4); When calling function f (x1, 5, x2,&x1), the number of calls to A's constructor (including the copy constructor) is____",
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "category": 1,
+        "id": 118
+    },
+    {
+        "question": "The incorrect statement about public static data members is:",
+        "A": "It is data shared by all objects of the class.",
+        "B": "It can be accessed using \"ClassName::StaticDataMemberName\".",
+        "C": "It is not included in the object space.",
+        "D": "It can only be accessed by static member functions.",
+        "category": 0,
+        "id": 119
+    },
+    {
+        "question": "The incorrect statement about objects of const A class is____",
+        "A": "It must be assigned initial value at the time of definition.",
+        "B": "It can only call const member functions of class A.",
+        "C": "It can be used as the actual argument for the formal parameter \"A x\".",
+        "D": "It can be used as the actual argument for the formal parameter \"A &x\".",
+        "category": 0,
+        "id": 120
+    },
+    {
+        "question": "If a global variable can only be accessed by the source file it is defined in, the qualifier that needs to be added before the variable definition is ____.",
+        "A": "auto",
+        "B": "extern",
+        "C": "static",
+        "D": "register",
+        "category": 0,
+        "id": 121
+    },
+    {
+        "question": "If there is a definition: classA {public: virtual void display(); }; class B:public A { public: virtual void display();}; and the definition: A *pa = new B, a = (*pa); then A:display() and pa->display() respectively call ____.",
+        "A": "A class's display() A class's display()",
+        "B": "B class's display() B class's display()",
+        "C": "A class's display() B class's display()",
+        "D": "B class's",
+        "category": 2,
+        "id": 122
+    },
+    {
+        "question": "The prototype of the move constructor for class A is ____",
+        "A": "A( A other);",
+        "B": "A( const A & other);",
+        "C": "A( A &&other);",
+        "D": "A( A &other);",
+        "category": 0,
+        "id": 123
+    },
+    {
+        "question": "has the following definition statement: int a []={1,2,3,4,5};, then statement int * p=a; the correct description is ____",
+        "A": "statement int * p=a; incorrect definition",
+        "B": "statement int * p=a; initializes variable p to point to the first element of array object a",
+        "C": "statement int * p=a; assigns all element values of array a to variable p",
+        "D": "statement int * p=a; assigns the value of a [0] to variable p",
+        "category": 2,
+        "id": 124
+    },
+    {
+        "question": "What is the correct description of a red black tree with node numbers greater than or equal to 3____",
+        "A": "The degree of the root node is always 2.",
+        "B": "The last inserted element is always a leaf node.",
+        "C": "The minimum element always has no left child.",
+        "D": "The last inserted element is always a red node.",
+        "category": 0,
+        "id": 125
+    },
+    {
+        "question": "The algorithm in the following sorting algorithms that has time complexity independent of the initial arrangement of the data is ____",
+        "A": "Insertion sort",
+        "B": "Heap sort",
+        "C": "Bubble sort",
+        "D": "Merge sort",
+        "category": 0,
+        "id": 126
+    },
+    {
+        "question": "Which of the following infix expressions can be converted to postfix expressions using an operator stack with a capacity of 4?",
+        "A": "(1 + 2)* (6 / 2 -1)",
+        "B": "1+2 * 3 ^ (5+2) / 4 +6",
+        "C": "1+ 2 * (3 -8 / 2) *3",
+        "D": " (2* 3) ^ 2 ^ 3 / 4",
+        "category": 2,
+        "id": 127
+    },
+    {
+        "question": "If the push sequence is SJTU, which of the following sequences could be the pop sequence?",
+        "A": "SJTU",
+        "B": "UJTS",
+        "C": "STJU",
+        "D": "JTSU",
+        "category": 1,
+        "id": 128
+    },
+    {
+        "question": "The valid topological sequences in the following figure are:",
+        "A": "ABCDEFG",
+        "B": "ABDCFEG",
+        "C": "ABCEFDG",
+        "D": "ABDECFG",
+        "category": 1,
+        "id": 129
+    },
+    {
+        "question": "To make the preorder sequence of a non-empty binary tree the same as the inorder sequence, the condition that all non-leaf nodes must satisfy is ____.",
+        "A": "Only have a left subtree",
+        "B": "Only have a right subtree",
+        "C": "The degree of the nodes is both 12",
+        "D": "The degree of the nodes is both 2",
+        "category": 1,
+        "id": 130
+    },
+    {
+        "question": "There are train tracks as shown in the following figure, with 3 tracks between the entrance and exit. The direction of train travel is from left to right, and trains can enter any track. There are currently 9 trains numbered 1-9, and the entry sequence is disorderly (for example, 5 represents the most advanced station, followed by 1, 3, 4,..., and finally 7) . If the expected sequence of departure is 1-9, which of the following entry sequences can complete the reorganization is ____ ",
+        "A": "1, 3, 2, 4, 5, 6, 8, 7, 9",
+        "B": "5, 2, 8, 6, 1, 7, 9, 4, 3",
+        "C": "5, 2, 8, 6, 1, 7, 9, 4, 3",
+        "D": "9, 2, 1, 5, 8, 4, 3, 6, 7",
+        "category": 1,
+        "id": 131
+    },
+    {
+        "question": "The pre-order traversal sequence of an expression tree is: * + / 3 2 8 - 7 1, the in-order traversal sequence is: 3 / 2 + 8 * 7 - 1, the correct description is ____",
+        "A": "The corresponding infix expression is 3 / 2 + 8 * 7 - 1.",
+        "B": "The corresponding infix expression is (3 / 2 + 8 * 7 - 1).",
+        "C": "The corresponding postfix expression is * + / 3 2 8 - 7 1.",
+        "D": "The corresponding postfix expression is 3 2 / 8 + 7 1 - *.",
+        "category": 2,
+        "id": 132
+    },
+    {
+        "question": "Given that the preorder traversal sequence of a binary tree is ABCD and the postorder traversal sequence is CDBA, then the impossible inorder traversal sequence is ____",
+        "A": "CBDA",
+        "B": "ACBD",
+        "C": "ACBD",
+        "D": "ADCB",
+        "category": 1,
+        "id": 133
+    },
+    {
+        "question": "The correct translation is:",
+        "A": "p->prev->next = p->next; p->next->prev = p->prev; delete p;",
+        "B": "q = p; delete p; q->prev->next = q->next; q->next->prev = q->prev;",
+        "C": "q1 = delete p; p->prev; q2 = p->next; q1->next = q2; q2->prev = q1;",
+        "D": "q1 = p->prev; q2 = q1->next; delete p; q1->next = q2; q2->prev = q1;",
+        "category": 2,
+        "id": 134
+    },
+    {
+        "question": "If the original arrangement of the data is very close to the sorted state, you can choose ____",
+        "A": "Insertion sort",
+        "B": "Selection sort",
+        "C": "Monkey sort",
+        "D": "Quick sort",
+        "category": 0,
+        "id": 135
+    },
+    {
+        "question": "Which of the following is not a possible Huffman coding for 5 elements?",
+        "A": "000, 0010, 1100, 1010, 1111",
+        "B": "00, 01, 100, 101, 1",
+        "C": "00, 01, 100, 101, 11",
+        "D": "0, 10, 1100, 1101, 111",
+        "category": 1,
+        "id": 136
+    },
+    {
+        "question": "Add an iterator to a doubly linked list class. The data members of the iterator are pointers to the nodes of the doubly linked list cur. Insert an element x at the position pointed to by the iterator itr. After insertion, the iterator points to the newly inserted node. The constructor prototype of the node class node is node (node * pre v, int x, node * next). Assuming that all data members are public, the legal option below is (constructor) ____",
+        "A": "itr, cur=new node (itr. cur ->prev, x, itr. cur ->next); Itr. cur ->prev ->next=itr. cur ->ext ->prev=itr. cur;",
+        "B": "itr. cur ->prev ->next=itr. cur ->prev=new node (itr. cur ->prev, x, itr. cur ->next); Itr. cur=itr. cur ->prev;",
+        "C": "itr. cur ->prev ->next=itr. cur ->prev=new node (itr. cur ->prev, x, itr. cur -); Itr. cur=itr. cur ->prev;",
+        "D": "itr. cur ->prev=itr. cur ->prev ->next=new node (itr. cur ->prev, x, itr. cur -); Itr. cur=itr. cur ->prev;",
+        "category": 2,
+        "id": 137
+    },
+    {
+        "question": "Enter data 1, 2, 3, 4, 5, and 6 into a FIFO queue in sequence. During the insertion process, there may be some out of queue operations, and ultimately all elements need to be out of queue. The possible exit order among the following options is____",
+        "A": "6, 5, 4, 3, 2, 1",
+        "B": "1, 2, 3, 4, 5, 6",
+        "C": "2, 1, 3, 5, 4, 6",
+        "D": "3, 2, 1, 6, 5, 4",
+        "category": 1,
+        "id": 138
+    },
+    {
+        "question": "\u5c06\u4f18\u5148\u7ea7\u4e3a3\u30016\u30015\u30011\u30017\u30010\u30019\u7684\u5143\u7d20\u4f9d\u6b21\u8fdb\u5165\u4e00\u4e2a\u4f18\u5148\u7ea7\u961f\u5217,\u6570\u503c\u8d8a\u5c0f\u4f18\u5148\u7ea7\u8d8a\u9ad8,\u5728\u5165\u961f\u8fc7\u7a0b\u4e2d\u53ef\u80fd\u6709\u4e00\u4e9b\u51fa\u961f\u64cd\u4f5c,\u6700\u540e\u6240\u6709\u5143\u7d20\u90fd\u8981\u51fa\u961f\u3002\u4e0b\u5217\u9009\u9879\u4e2d\u4e0d\u53ef\u80fd\u7684\u51fa\u961f\u6b21\u5e8f\u662f____",
+        "A": "3, 5, 6, 0, 1, 7, 9",
+        "B": "3, 1, 6, 5, 0, 7, 9",
+        "C": "0, 1, 3, 5, 6, 7, 9",
+        "D": "3, 0, 1, 5, 6, 7,9",
+        "category": 1,
+        "id": 139
+    },
+    {
+        "question": "The possible sorting algorithm used to sort the elements 3, 1, 6, 0, 5, 7, 9 into the result 0, 1, 6, 3, 5, 7, 9 in one pass is ___.",
+        "A": "Bubble Sort",
+        "B": "Straight Insertion Sort",
+        "C": "Insertion Sort",
+        "D": "Shell Sort with 3-sorting",
+        "category": 0,
+        "id": 140
+    },
+    {
+        "question": "If a:b:c:d:e enter a stack in order, with the possibility of being popped out during the process, if the first element popped out is c, it is impossible for the second element to be____",
+        "A": "a",
+        "B": "b",
+        "C": "d",
+        "D": "e",
+        "category": 1,
+        "id": 141
+    },
+    {
+        "question": "The minimum spanning tree is:____\n| \u221e | 5 | 1 | \u221e | \u221e | \u221e |/n| 5 | \u221e | \u221e | 1 | \u221e | \u221e |/n| 1 | \u221e | \u221e | 4 | 2 | \u221e |/n| \u221e | 1 | 4 | \u221e | 2 | 2 |/n| \u221e | \u221e | 2 | 2 | \u221e | 2 |/n| \u221e | \u221e | \u221e | 2 | 2 | \u221e |/n",
+        "A": "(0,1)(1,3)(2,4)(3,4)(4,5)",
+        "B": "(0,2)(1,3)(2,4)(3,4)(4,2)",
+        "C": "(0,2)(1,3)(2,4)(3,4)(3,5)",
+        "D": "(0,2)(2,3)(2,4)(3,4)(4,5)",
+        "category": 1,
+        "id": 142
+    },
+    {
+        "question": "If the keywords 1, 2, 3, 4, 5, 6, 7 are inserted into an initially empty AVL tree T, the number of non-leaf nodes in T with a balance factor of 0 is____",
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "category": 1,
+        "id": 143
+    },
+    {
+        "question": "The time complexity of the following code segment is ____\ncount = 0;for (k = 1; k <= n; k *= 2)for (j = 1; j <= n; j = j+1)count++;",
+        "A": "O(log2n)",
+        "B": "O(n)",
+        "C": "O(nlog2n)",
+        "D": "O(n^2)",
+        "category": 2,
+        "id": 144
+    },
+    {
+        "question": "If there are 1,000,000 numbers to be sorted and the fastest method is needed to select the smallest 10, which of the following methods can achieve this goal?",
+        "A": "Quick Sort",
+        "B": "Heap Sort",
+        "C": "Merge Sort",
+        "D": "Shell Sort",
+        "category": 0,
+        "id": 145
+    },
+    {
+        "question": "If elements A:B:C:D:e and f are pushed into a stack in order, with alternating push and pop operations allowed. However, at most two consecutive pop operations are allowed. The impossible sequence of popped elements is____",
+        "A": "dcebfa",
+        "B": "cbdaef",
+        "C": "cbdafe",
+        "D": "adcfeb",
+        "category": 1,
+        "id": 146
+    },
+    {
+        "question": "In a tree T with a degree of 4, if there are 20 nodes with a degree of 4, 10 nodes with a degree of 3, 1 node with a degree of 2, and 10 nodes with a degree of 1, the number of leaf nodes in tree T is ____",
+        "A": "81",
+        "B": "82",
+        "C": "122",
+        "D": "123",
+        "category": 1,
+        "id": 147
+    },
+    {
+        "question": "The keyword sequences that cannot form a search path in a binary search tree are:",
+        "A": "21,89,77,29,36,38",
+        "B": "92,20,91,34,88,35",
+        "C": "95,22,91,24,94,71",
+        "D": "12,25,71,68,33,34",
+        "category": 1,
+        "id": 148
+    },
+    {
+        "question": "If the preorder traversal sequence of a binary tree is a, e, b, d, c, and the postorder traversal sequence is b, c, d, e, a, then the child nodes of the root node are____",
+        "A": "only e",
+        "B": "e, b",
+        "C": "e, c",
+        "D": "cannot be determined",
+        "category": 1,
+        "id": 149
+    },
+    {
+        "question": "If the length of the Huffman encoding does not exceed 4, and if two characters have already been encoded as 1 and 01, a maximum of characters can be encoded as ____ ",
+        "A": "2 /n",
+        "B": "3 /n",
+        "C": "4 /n",
+        "D": "5",
+        "category": 1,
+        "id": 150
+    },
+    {
+        "question": "If a directed graph is stored using an adjacency matrix, with all elements below the main diagonal being zero, the conclusion about the topological sequence of this graph is ______",
+        "A": "Exists and unique",
+        "B": "Does not exist",
+        "C": "Exists, possibly not unique",
+        "D": "Cannot determine whether it exists",
+        "category": 0,
+        "id": 151
+    },
+    {
+        "question": "The correct statements about minimum spanning trees are as follows: I. The cost of the minimum spanning tree is unique; II. The edge with the minimum weight will always appear in all minimum spanning trees; III. The minimum spanning tree obtained by the Prim's algorithm will always be the same regardless of the starting vertex; IV. The minimum spanning trees obtained by the Prim's algorithm and Kruskal's algorithm will never be the same.",
+        "A": "Only I",
+        "B": "Only II",
+        "C": "Only I\u3001III",
+        "D": "Only II\u3001IV",
+        "category": 0,
+        "id": 152
+    },
+    {
+        "question": "In the internal sorting process, processing all elements that have not yet determined their final position once is called a single pass sorting. Sort a set of data (2,12,16,88,5,10), if the results of the first three rounds of sorting are as follows. The first trip: 2,12,16,5,10,88; The second trip: 2,12,5,10,16,88; The third trip: 2,5,10,12,16,88. The sorting method used is____",
+        "A": "Heap sort",
+        "B": "Bubble sort",
+        "C": "Radix sort",
+        "D": "Direct insertion sort",
+        "category": 0,
+        "id": 153
+    },
+    {
+        "question": "The operation of inserting a node with a value of d into an initially empty doubly circular linked list without a head and tail node, where the structure of the node is (prev, data, next), and head is a pointer to a node in the doubly circular linked list, is____",
+        "A": "head->data = d; head->next=head->prev = NULL;",
+        "B": "head->data = d; head->next=head->prev = head;",
+        "C": "head = new node; head->data = d; head->next=head->prev = NULL;",
+        "D": "head = new node; head->data = d; head->next=head->prev = head;",
+        "category": 2,
+        "id": 154
+    },
+    {
+        "question": "Is the binary search tree with preorder traversal sequence (15, 5, 0, 3, 10, 30, 18, 16, 40, 35, 50, 45) an AVL tree and what is the height of this tree? (The height of a tree with only one root node is 1)",
+        "A": " Yes, 4",
+        "B": "Yes, 5",
+        "C": "No, 4",
+        "D": "No, 5",
+        "category": 1,
+        "id": 155
+    },
+    {
+        "question": "The height of the Huffman tree constructed from a set of weights {1, 2, 3, 4, 5, 6, 7, 8} is ____",
+        "A": "4",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "category": 1,
+        "id": 156
+    },
+    {
+        "question": "Given a level order traversal of a min-heap as (1, 4, 10, 5, 6, 111, 13, 9, 8), insert the element 3 into the heap. After insertion, at which level is the element 3 located? (The root node is considered as level 1)",
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "category": 1,
+        "id": 157
+    },
+    {
+        "question": "The order of all leaf nodes in the preorder sequence, inorder sequence, and postorder sequence of a binary tree node is ____.",
+        "A": "completely the same",
+        "B": "the same as the preorder and inorder, but different from the postorder",
+        "C": "all different",
+        "D": "the same as the inorder and postorder, but different from the preorder",
+        "category": 0,
+        "id": 158
+    },
+    {
+        "question": "The impossible sequence to pop out of the stack, if the stack size is 5, is ______",
+        "A": "1,2,3,4,5,6,7,8,9,10",
+        "B": "5,4,6,7,3,2,9,8,10,1",
+        "C": "4,5,3,6,10,9,8,7,2,1",
+        "D": "4,3,6,5,8,7,10,9,2,1",
+        "category": 1,
+        "id": 159
+    },
+    {
+        "question": "Use quick sorting to sort data {5,6,3,4,9,10,1,2,7,8}. When partitioning, use the first element as the standard element. After a pass of partitioning, the order of the array elements is ____",
+        "A": "1,2,3,4,5,6,7,8,9,10",
+        "B": "2,1,3,4,5,10,9,6,7,8",
+        "C": "1,2,3,4,5,9,10,6,7,8",
+        "D": "3,4,2,2,5 6,9,10,7,8",
+        "category": 1,
+        "id": 160
+    },
+    {
+        "question": "Using a child sibling chain to store a tree, the right pointer of the root node is ____",
+        "A": "pointing to the leftmost child",
+        "B": "pointing to the rightmost child",
+        "C": "empty",
+        "D": "uncertain",
+        "category": 1,
+        "id": 161
+    },
+    {
+        "question": "The operation to modify the pointers in a doubly linked circular linked list with node structure (prev, data, next) when inserting a new node pointed by q before the node pointed by p is____",
+        "A": "p->prev = q; q->next = p; p->prev->next = q; q->prev = q;",
+        "B": "p->prev = q; p->prev->next = q; q->next = p; q->prev = p->prev;",
+        "C": "q->prev = p->prev; q->next = p; p->prev = q; p->prev = q;",
+        "D": "q->next = p; q->prev = p->prev; p->prev->next = q; p->prev = q;",
+        "category": 2,
+        "id": 162
+    },
+    {
+        "question": "Using binary search, the number of key comparisons required to find the key 60 in the initial record key sequence (0,5,10,15,20,25,30,35,40,45,50,55,60,65,70) is ____.",
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "category": 1,
+        "id": 163
+    },
+    {
+        "question": "The key sequence of a set of records is (22,66,30,70,60,87,24). Use heap sort to sort them in increasing order. The initial heap established by buildHeap is ____",
+        "A": "(22,60,24,70,66,87,30)",
+        "B": "(87,70,30,66,60,22,24)",
+        "C": "(22,24,30,60,66,70,87)",
+        "D": "(87,70,66,60,30,24,22)",
+        "category": 1,
+        "id": 164
+    },
+    {
+        "question": "If the pre order sequence and post order sequence of a binary tree are exactly opposite, then what kind of binary tree the binary tree must be ____",
+        "A": "Empty or only one node",
+        "B": "The maximum number of leaf nodes is 1",
+        "C": "No left son at any node",
+        "D": "No right son at any node",
+        "category": 1,
+        "id": 165
+    },
+    {
+        "question": "The following options give the weight sequences from the root to two leaf nodes. Which ones can belong to the same Huffman tree?",
+        "A": "24, 10, 5 and 24, 10, 7",
+        "B": "24, 10, 5 and 24, 12, 7",
+        "C": "24, 10, 10 and 24, 14, 11",
+        "D": "24, 10, 5 and 24, 14, 6",
+        "category": 1,
+        "id": 166
+    },
+    {
+        "question": "The impossible order of element popping out if the order of pushing in is 1, 2, 3, 4, 5, 6 is____",
+        "A": "1, 2, 3, 4, 5, 6",
+        "B": "6, 5, 4, 3, 2, 1",
+        "C": "1, 2, 4, 3, 6, 5",
+        "D": "1,4,2,3,5,6",
+        "category": 1,
+        "id": 167
+    },
+    {
+        "question": "Which of the following sequences is impossible to find in a binary search tree?",
+        "A": "10, 20, 30, 25",
+        "B": "10, 20, 30, 19",
+        "C": "10, 20, 30, 40",
+        "D": "10, 5, 7, 9",
+        "category": 1,
+        "id": 168
+    },
+    {
+        "question": "In a circular queue, if the array size is size, front points to the unit before the front element of the queue, and rear points to the rear element, then the length of the queue is____",
+        "A": "rear - front",
+        "B": "(rear-front) % size",
+        "C": "(rear-front + size)%size",
+        "D": "(rear-front + 1 + size)%size",
+        "category": 2,
+        "id": 169
+    },
+    {
+        "question": "Consider the following array: 59, 19, 50, 17, 12, 15, 2, 5, 7, 11, 6, 14, 99. How many swaps are required to transform it into a maximum heap at least",
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "6",
+        "category": 1,
+        "id": 170
+    },
+    {
+        "question": "The correct statement about a fixed-order queue with a fixed front position is ____",
+        "A": "Can only enqueue and cannot dequeue",
+        "B": "Enqueuing always causes a large amount of data movement",
+        "C": "Dequeue operation has a complexity of O(1)",
+        "D": "Dequeue causes a large amount of data movement",
+        "category": 0,
+        "id": 171
+    },
+    {
+        "question": "When searching for a node with a certain key in a binary search tree with n nodes, the maximum number of comparisons performed is ____.",
+        "A": "log(2n)+1",
+        "B": "log(n)/log(2)",
+        "C": "n",
+        "D": "n/2",
+        "category": 1,
+        "id": 172
+    },
+    {
+        "question": "What is the maximum length of a queue when an array of size N is used to store a circular queue and the front pointer does not store any data elements?",
+        "A": "N+1",
+        "B": "N-1",
+        "C": "N-2",
+        "D": "N",
+        "category": 1,
+        "id": 173
+    },
+    {
+        "question": "The maximum depth of a balanced binary tree with 20 nodes is ____.",
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "4",
+        "category": 1,
+        "id": 174
+    },
+    {
+        "question": "The correct statement among the following is____",
+        "A": "In the circular queue, let the unit pointed to by front not store queue elements, and the condition for judging that the queue is full is (rear+1)%MaxSize==front",
+        "B": "All right",
+        "C": "All wrong",
+        "D": "The operation of the stack is first in last out",
+        "category": 0,
+        "id": 175
+    },
+    {
+        "question": "The following statements are correct: ____",
+        "A": "All right",
+        "B": "Before performing stack operations, the stack should be judged to be empty",
+        "C": "All wrong",
+        "D": "The stack operation is first in and then out",
+        "category": 0,
+        "id": 176
+    },
+    {
+        "question": "The following statements are correct: ____",
+        "A": "All right",
+        "B": "All wrong",
+        "C": "Stack is a storage structure",
+        "D": "The operation of the stack is first in, second out",
+        "category": 0,
+        "id": 177
+    },
+    {
+        "question": "What is the impossible sequence of popping out for a stack with the push sequence of 1, 2, 3, 4?",
+        "A": "4 3 1 2",
+        "B": "1 4 3 2",
+        "C": "1 2 4 3",
+        "D": "2 1 4 3",
+        "category": 1,
+        "id": 178
+    },
+    {
+        "question": "By _____ method, it can be determined whether a directed graph has a cycle.",
+        "A": "Calculate the degree of nodes",
+        "B": "All wrong",
+        "C": "Calculate the critical path",
+        "D": "Topological sorting",
+        "category": 0,
+        "id": 179
+    },
+    {
+        "question": "By using the ______ method, it is possible to determine whether a directed graph has a cycle.",
+        "A": "Calculate the degrees of the nodes",
+        "B": "Perform depth-first search",
+        "C": "Calculate the critical path",
+        "D": "All wrong",
+        "category": 0,
+        "id": 180
+    },
+    {
+        "question": "For a directed graph, if a vertex has an in-degree of K1 and an out-degree of K2, the number of nodes in the linked list corresponding to that vertex in the adjacency list is ____.",
+        "A": "K1+K2",
+        "B": "K2",
+        "C": "fabs(K1-K2)",
+        "D": "K1",
+        "category": 1,
+        "id": 181
+    },
+    {
+        "question": "Which of the following arrays can correctly represent the result after deleting the root element twice from the given array-based max heap: {75, 72, 59, 63, 48, 15, 43, 61}?",
+        "A": "63, 59, 61, 43, 48, 15",
+        "B": "63, 59, 48, 15, 43, 61",
+        "C": "63, 61, 59, 43, 48, 15",
+        "D": "63, 61, 59, 48, 43, 15",
+        "category": 1,
+        "id": 182
+    },
+    {
+        "question": "Given an ordered list {3, 7, 12, 21, 54, 57, 65, 76, 87, 90, 92, 94}, using binary search to find 90 in the list, what is the record of the third comparison?",
+        "A": "76",
+        "B": "87",
+        "C": "90",
+        "D": "92",
+        "category": 1,
+        "id": 183
+    },
+    {
+        "question": "The incorrect options in the statement are:",
+        "A": "All wrong",
+        "B": "Radix sort is a stable sorting method.",
+        "C": "Huffman tree is the tree with the shortest weighted path length, and nodes with higher weights are closer to the root.",
+        "D": "When deleting an element from a min heap, the last element of the heap needs to be filled into the top position, and then it needs to be adjusted upwards layer by layer according to the condition.",
+        "category": 0,
+        "id": 184
+    },
+    {
+        "question": "Which of the following options are incorrect in the description below?",
+        "A": "Topological sorting refers to sorting the nodes in a certain order.",
+        "B": "Radix sort is a stable sorting method.",
+        "C": "Huffman tree is a tree with the shortest weighted path length, and nodes with larger weights are closer to the root.",
+        "D": "All wrong",
+        "category": 0,
+        "id": 185
+    },
+    {
+        "question": "The time complexity that is not affected by the initial state of the data and remains constant as O(nlogn) is____",
+        "A": "Bubble sort",
+        "B": "Heap sort",
+        "C": "Shell sort",
+        "D": "Quick sort",
+        "category": 0,
+        "id": 186
+    },
+    {
+        "question": "What is the best choice to find the top 50 largest numbers in the fastest way among 1000 unordered integers?",
+        "A": "Radix sort",
+        "B": "Bubble sort",
+        "C": "Heap sort",
+        "D": "Quick sort",
+        "category": 0,
+        "id": 187
+    },
+    {
+        "question": "The efficiency of searching in a binary search tree is related to ______.",
+        "A": "the degree of the node being searched",
+        "B": "the depth of the binary search tree",
+        "C": "the number of nodes in the binary search tree",
+        "D": "the storage structure of the binary search tree",
+        "category": 0,
+        "id": 188
+    },
+    {
+        "question": "The correct description about traversal is ______",
+        "A": "All wrong",
+        "B": "The result generated by a certain traversal method of a binary tree is a linear sequence.",
+        "C": "Given a certain traversal result of a binary tree, it cannot uniquely determine the tree, but two different traversal results can deduce the binary tree.",
+        "D": "The tree can be uniquely determined by its preorder traversal and postorder traversal.",
+        "category": 0,
+        "id": 189
+    },
+    {
+        "question": "The correct description about traversal is:",
+        "A": "Traversal has both recursive and non-recursive algorithms.",
+        "B": "All wrong",
+        "C": "Given a certain traversal result of a binary tree, it cannot uniquely determine the tree, but two different traversal results of the binary tree can deduce the tree.",
+        "D": "The tree can be uniquely determined by its preorder traversal and postorder traversal.",
+        "category": 0,
+        "id": 190
+    },
+    {
+        "question": "When performing binary search on a linear table, it is required that the linear table must be stored in ________.",
+        "A": "sequential manner and the nodes are stored in sorted order by key",
+        "B": "sequential manner",
+        "C": "linked manner and the nodes are stored in sorted order by key",
+        "D": "linked manner",
+        "category": 0,
+        "id": 191
+    },
+    {
+        "question": "Which of the following statements about graphs is correct?",
+        "A": "In a strongly connected directed graph, every vertex has an arc to every other vertex.",
+        "B": "The in-degree of any vertex in a graph is equal to its out-degree.",
+        "C": "A subset of the edge set and a subset of the vertex set of a directed graph can form a subgraph of the original directed graph.",
+        "D": "A directed complete graph is always a strongly connected directed graph.",
+        "category": 0,
+        "id": 192
+    },
+    {
+        "question": "Given two doubly linked lists of lengths m and n, merging the list of length n into the end of the list of length m using the existing node space of the lists, the required time complexity is____",
+        "A": "O(m+n)",
+        "B": "O(m)",
+        "C": "O(1)",
+        "D": "O(n)",
+        "category": 1,
+        "id": 193
+    },
+    {
+        "question": "The correct statements about hash tables are____. I. It is best for the length of the array to be a prime number when using the division remainder method. II. No key comparisons are needed in hash table search. III. The average search length in a successful search in a hash table is related to the table length. IV. If an element is deleted in a hash table, it cannot simply be removed.\n",
+        "A": "I and IV",
+        "B": "III",
+        "C": "IV",
+        "D": "II",
+        "category": 1,
+        "id": 194
+    },
+    {
+        "question": "The value of the postfix expression 9 2 3 * + 10 2 / - is ______",
+        "A": "23",
+        "B": "17",
+        "C": "10",
+        "D": "20",
+        "category": 1,
+        "id": 195
+    },
+    {
+        "question": "What is the average number of elements that need to be moved when inserting an element into a sequential list of 100 elements while maintaining the original order, assuming an equal probability distribution for the insertion position?",
+        "A": "50",
+        "B": "50.5",
+        "C": "49.5",
+        "D": "1",
+        "category": 1,
+        "id": 196
+    },
+    {
+        "question": "Which of the following statements about the characteristics of an undirected connected graph is correct? I. The sum of the degrees of all vertices is even. II. The number of edges is greater than the number of vertices minus 1. III. At least one vertex has a degree of 1.",
+        "A": "Only II",
+        "B": "I and II",
+        "C": "Only I",
+        "D": "I and III",
+        "category": 0,
+        "id": 197
+    },
+    {
+        "question": "The incorrect statement among the following descriptions about B-trees and B+ trees is____",
+        "A": "Both B-trees and B+ trees can be used for file indexing structures.",
+        "B": "Both B-trees and B+ trees are balanced multiway trees.",
+        "C": "Both B-trees and B+ trees can efficiently support random access.",
+        "D": "Both B-trees and B+ trees can efficiently support sequential access.",
+        "category": 0,
+        "id": 198
+    },
+    {
+        "question": "The correct statement among the following is____",
+        "A": "The logical structure of data uniquely determines its storage structure.",
+        "B": "The logical structure of data is independent of its storage structure.",
+        "C": "Data structure is determined solely by its logical structure and storage structure.",
+        "D": "All wrong",
+        "category": 0,
+        "id": 199
+    },
+    {
+        "question": "Translate the following question into English, do not answer the question, only output the translated text.\n\nInsert the numbers 7, 8, 9, 2, 3, 5, 6, 4 in order into an initially empty AVL tree. Which of the following sentences is incorrect____",
+        "A": "The balance factor of a node with 2 children is -1.",
+        "B": "2 and 5 are siblings.",
+        "C": "3 is the root node of 4",
+        "D": "7 is the root node",
+        "category": 0,
+        "id": 200
+    },
+    {
+        "question": "From a binary Huffman tree to a ternary Huffman tree, the weights of characters A, B, C, D, E, F, G are 3, 12, 7, 4, 2, 8, 11 respectively. What is the level of character A in the Huffman tree (assuming the root node is at level 1)?",
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "category": 1,
+        "id": 201
+    },
+    {
+        "question": "If it is possible to visit all vertices by performing a depth-first search from any vertex in a directed acyclic graph, then the graph must be ____",
+        "A": "strongly connected",
+        "B": "cyclic",
+        "C": "a tree",
+        "D": "connected",
+        "category": 1,
+        "id": 202
+    },
+    {
+        "question": "The time complexity of an algorithm is (n^3 + n^2*(log(n)/log(2)) + 8n)/n^2. The representation in big O notation is____",
+        "A": "O(logn)",
+        "B": "O(n^3)",
+        "C": "O(n+logn+8/n)",
+        "D": "O(n)",
+        "category": 2,
+        "id": 203
+    },
+    {
+        "question": "Traversing the tree by ____ yields an ordered sequence",
+        "A": "Pre order",
+        "B": "Hierarchical order",
+        "C": "Mid order",
+        "D": "Post order",
+        "category": 0,
+        "id": 204
+    },
+    {
+        "question": "The maximum number of elements that need to be moved to delete a node in a sequential list of length N is ______",
+        "A": "N-1",
+        "B": "N/2",
+        "C": "N",
+        "D": "1",
+        "category": 1,
+        "id": 205
+    },
+    {
+        "question": "The incorrect statement among the following descriptions is____",
+        "A": "The time complexity of heap sort is O(nlogn).",
+        "B": "The space complexity of heap sort is O(1).",
+        "C": "Heap sort is a stable sorting algorithm.",
+        "D": "The time complexity of the entire heap construction is O(n).",
+        "category": 0,
+        "id": 206
+    },
+    {
+        "question": "If the length of Huffman coding does not exceed 4, and it is known that the encoding of two characters is 0 and 100, the maximum number of characters that can still be encoded is ____.",
+        "A": "7",
+        "B": "3",
+        "C": "5",
+        "D": "6",
+        "category": 1,
+        "id": 207
+    },
+    {
+        "question": "The relative order of these nodes in the post-order traversal is ______",
+        "A": "ABCFED",
+        "B": "Cannot be determined",
+        "C": "FEDCBA",
+        "D": "ABCDEF",
+        "category": 1,
+        "id": 208
+    },
+    {
+        "question": "The insertion and deletion operations of a stack are at the ____.",
+        "A": "top of the stack",
+        "B": "middle of the stack",
+        "C": "bottom of the stack",
+        "D": "any position",
+        "category": 0,
+        "id": 209
+    },
+    {
+        "question": "The initial state of stack S and queue Q is empty. Elements e1, e2, e3, e4, e5, and e6 are passed through stack S in order. After an element is popped from the stack, it is enqueued into queue Q. If the sequence of elements dequeued is e2, e4, e3, e6, e5, e1, then the minimum capacity of stack S should be ____.",
+        "A": "5",
+        "B": "3",
+        "C": "2",
+        "D": "4",
+        "category": 1,
+        "id": 210
+    },
+    {
+        "question": "Given the initial unsorted sequence { 15, 9, 7, 8, 20, -1, 4 }. If the sequence after the first pass of Shell sort is { 15, -1, 4, 8, 20, 9, 7 }, then the increment for that pass is____",
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "1",
+        "category": 1,
+        "id": 211
+    },
+    {
+        "question": "In the inorder traversal sequence of a non-empty binary tree, it is not possible for a node to have its adjacent node as:",
+        "A": "The leftmost node on its right subtree",
+        "B": "The rightmost node on its left subtree",
+        "C": "Its sibling node",
+        "D": "Its parent node",
+        "category": 0,
+        "id": 212
+    },
+    {
+        "question": "What is the number of nodes in the first tree of forest F, where the corresponding binary tree B has m+1 nodes, the root of B is p, and the number of nodes in the right subtree of p is n?",
+        "A": "m-n",
+        "B": "Insufficient information to determine",
+        "C": "m-n+1",
+        "D": "n+1",
+        "category": 1,
+        "id": 213
+    },
+    {
+        "question": "The advantages of a doubly linked list over a singly linked list are:",
+        "A": "All wrong",
+        "B": "It allows direct access to the immediate predecessor of a specified node in the linked list.",
+        "C": "It has better space complexity.",
+        "D": "It allows direct access to the immediate successor of a specified node in the linked list.",
+        "category": 0,
+        "id": 214
+    },
+    {
+        "question": "The advantages of a doubly linked list over a singly linked list are:",
+        "A": "Faster reverse traversal from the terminal node to the starting node",
+        "B": "All wrong",
+        "C": "Better space complexity",
+        "D": "Direct access to the immediate successor of a specific node in the linked list",
+        "category": 0,
+        "id": 215
+    },
+    {
+        "question": "The tail node of the non-empty circular linked list head satisfies the following condition____",
+        "A": "tail==NULL;",
+        "B": "tail->next==head;",
+        "C": "tail->next==NULL;",
+        "D": "head->next==tail;",
+        "category": 2,
+        "id": 216
+    },
+    {
+        "question": "Which of the following tree's inorder traversal sequence is ordered?",
+        "A": "AVL tree",
+        "B": "Binary tree",
+        "C": "Heap",
+        "D": "Huffman tree",
+        "category": 0,
+        "id": 217
+    },
+    {
+        "question": "Which of the following trees has an ordered inorder traversal sequence?",
+        "A": "All wrong",
+        "B": "Binary search tree",
+        "C": "Heap",
+        "D": "Huffman tree",
+        "category": 0,
+        "id": 218
+    },
+    {
+        "question": "What is the algorithm complexity of the following code?\ncount=0;for(k=1; k<=n; k*=2)for(j=1; j<=n; j++)count++;",
+        "A": "O(n^2)",
+        "B": "O(nlogn)",
+        "C": "O(n^3)",
+        "D": "O(log(n)/LOG(2))",
+        "category": 2,
+        "id": 219
+    },
+    {
+        "question": "In the commonly used storage structure of a binary search tree, the node with the maximum key value____",
+        "A": "The left pointer is always empty",
+        "B": "The right pointer is always empty",
+        "C": "Both the left and right pointers are not empty",
+        "D": "Both the left and right pointers are empty",
+        "category": 0,
+        "id": 220
+    },
+    {
+        "question": "When using block search, the organization of data requires that:",
+        "A": "The data is divided into several blocks, with each block having ordered data, and the blocks themselves must also be ordered.",
+        "B": "The data is divided into several blocks, with an equal number of data in each block.",
+        "C": "The data is divided into several blocks, with each block having ordered data, but the blocks themselves do not have to be ordered.",
+        "D": "The data is divided into several blocks, and the data within each block does not need to be orderly, but the blocks must be orderly",
+        "category": 0,
+        "id": 221
+    },
+    {
+        "question": "The number of stack sequences that start with CD, given a sufficiently large empty stack, with the order of pushing 4 elements being A, B, C, D, is ______.",
+        "A": "1",
+        "B": "3",
+        "C": "2",
+        "D": "4",
+        "category": 1,
+        "id": 222
+    },
+    {
+        "question": "Consider a min heap whose elements of all nodes are sorted as {1, 2, ..., 1024}. Let the depth of the root node be 1. What is the maximum depth that the integer 9 can have in the heap?",
+        "A": "9",
+        "B": "10",
+        "C": "4",
+        "D": "2",
+        "category": 1,
+        "id": 223
+    },
+    {
+        "question": "The forest corresponding to the binary tree, with the preorder traversal sequence of ABDCEF and the inorder traversal sequence of BDAECF, includes ____ trees.",
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "1",
+        "category": 1,
+        "id": 224
+    },
+    {
+        "question": "Among the following four sorting algorithms, ____ is stable.",
+        "A": "Bubble sort",
+        "B": "All wrong",
+        "C": "Quick sort",
+        "D": "Merge sort",
+        "category": 0,
+        "id": 225
+    },
+    {
+        "question": "Among the following four sorting algorithms, ____ is stable.",
+        "A": "All wrong",
+        "B": "Shell Sort",
+        "C": "Quick sort",
+        "D": "Merge sort",
+        "category": 0,
+        "id": 226
+    },
+    {
+        "question": "Starting from an empty tree, after inserting elements 52, 26, 14, 32, 71, 60, 93, 58, 24, and 41, a binary search tree is formed. The number of comparisons required to find 60 in this tree is ____.",
+        "A": "4",
+        "B": "5",
+        "C": "3",
+        "D": "6",
+        "category": 1,
+        "id": 227
+    },
+    {
+        "question": "In the following statements about m-order B-trees, the incorrect one is ____ ",
+        "A": "All leaf nodes are on the same level ",
+        "B": "There are few m/2 (m is even) or (m+1)/2 (m is odd) trees in the leaf nodes",
+        "C": "The data in the root node is ordered",
+        "D": "There are many m trees in the root node",
+        "category": 1,
+        "id": 228
+    },
+    {
+        "question": "If the time complexity of an algorithm is O(n), where n means ____",
+        "A": "problem size",
+        "B": "number of loops",
+        "C": "number of statements",
+        "D": "number of functions",
+        "category": 0,
+        "id": 229
+    },
+    {
+        "question": "If a queue is known to be represented by a single linked list, the current state of the single linked list (including 3 elements) is: 1->2->3, where x ->y indicates that the next node of x is y. At this time, if element 4 is queued and then queued out, the state of the single linked list is ____",
+        "A": "2->3->4",
+        "B": "The answer is not unique",
+        "C": "1->2->3",
+        "D": "4->2->1",
+        "category": 1,
+        "id": 230
+    },
+    {
+        "question": "The incorrect description about a doubly linked list is ____",
+        "A": "Doubly linked lists are convenient for insertion and deletion.",
+        "B": "Pointers in a doubly linked list can move in both forward and backward directions.",
+        "C": "Doubly linked lists and singly linked lists occupy the same amount of storage space.",
+        "D": "Doubly linked lists do not need to occupy contiguous storage space.",
+        "category": 0,
+        "id": 231
+    },
+    {
+        "question": "The number of different binary trees with a preorder traversal sequence of 1, 2, 3 is ______.",
+        "A": "5",
+        "B": "3",
+        "C": "4",
+        "D": "6",
+        "category": 1,
+        "id": 232
+    },
+    {
+        "question": "Which one of the following codes is not a prefix code?",
+        "A": "(0, 10, 110, 111)",
+        "B": "(0, 1, 00, 11)",
+        "C": "(00, 01, 10, 11)",
+        "D": "(1, 01, 000, 001)",
+        "category": 0,
+        "id": 233
+    },
+    {
+        "question": "The height of a breadth-first search tree compared to the height of a depth-first search tree is ______.",
+        "A": "Smaller",
+        "B": "Smaller or equal",
+        "C": "Larger",
+        "D": "Larger or equal",
+        "category": 0,
+        "id": 234
+    },
+    {
+        "question": "The number of zero elements in the adjacency matrix of an undirected graph with n vertices and e edges is ____",
+        "A": "2e",
+        "B": "n^2-e",
+        "C": "n^2-2e",
+        "D": "e",
+        "category": 1,
+        "id": 235
+    },
+    {
+        "question": "A balanced binary tree with a depth of k in which every internal node has a balance factor of 0 has a total of ____ nodes.",
+        "A": "2^(k-1)-1",
+        "B": "2^k-1",
+        "C": "2^k",
+        "D": "2^(k-1)+1",
+        "category": 1,
+        "id": 236
+    },
+    {
+        "question": "The correct statement among the following is _____.",
+        "A": "The shortest path from the source point to the destination point is unique.",
+        "B": "For a directed graph G, if starting from any vertex and performing a depth-first or breadth-first search can visit every vertex, then the graph must be a complete graph.",
+        "C": "Topological sorting is a sorting of nodes based on the earliest occurrence time of each node event in the AOE network.",
+        "D": "If vertex a is before vertex b in the topological sequence of directed graphs, there must be arcs<a, b>in the graph.",
+        "category": 0,
+        "id": 237
+    },
+    {
+        "question": "Given that there are 375,000 records stored on a disk and a 5-way balanced merge sort is being performed with a working area in memory that can hold 600 records, how many rounds of balanced merging are needed to sort all the records?",
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "category": 1,
+        "id": 238
+    },
+    {
+        "question": "AVL tree is a balanced binary search tree, in which any node in the tree has the following characteristic ____",
+        "A": "The degree of the left and right trees is the same",
+        "B": "The absolute value of the degree difference between the left and right trees does not exceed 1%",
+        "C": "The degree of the left and right trees is equal to the degree of the right tree",
+        "D": "The degree of the left tree is equal to the degree of the right tree",
+        "category": 0,
+        "id": 239
+    },
+    {
+        "question": "A binary tree has n nodes. In the binary linked list representation of this tree, the number of null pointer fields is ____",
+        "A": "n-1",
+        "B": "n+1",
+        "C": "n",
+        "D": "2n",
+        "category": 1,
+        "id": 240
+    },
+    {
+        "question": "Among the following four sorting algorithms, which one has the highest space complexity?",
+        "A": "Heap sort",
+        "B": "Merge sort",
+        "C": "Bubble sort",
+        "D": "Insertion sort",
+        "category": 0,
+        "id": 241
+    },
+    {
+        "question": "When storing data, not only the values of each element need to be stored, but also the ______.",
+        "A": "data element type",
+        "B": "data manipulation methods",
+        "C": "relationships between data elements",
+        "D": "All wrong",
+        "category": 0,
+        "id": 242
+    },
+    {
+        "question": "One of the characteristics that differentiates B+ tree from B tree is ____",
+        "A": "The nodes contain key values",
+        "B": "The root node has at least two branches",
+        "C": "All leaf nodes are on the same level",
+        "D": "It supports sequential search",
+        "category": 0,
+        "id": 243
+    },
+    {
+        "question": "Sorting 5 data requires a maximum of ____ comparisons.",
+        "A": "5",
+        "B": "10",
+        "C": "20",
+        "D": "25",
+        "category": 1,
+        "id": 244
+    },
+    {
+        "question": "After the end of each sort, it is uncertain which element can be selected and placed in its final position is ____",
+        "A": "heap sort",
+        "B": "bubble sort",
+        "C": "Hill sort",
+        "D": "quick sort",
+        "category": 0,
+        "id": 245
+    },
+    {
+        "question": "Which of the following situations would result in the most number of comparisons in bubble sort when sorting n different numbers in ascending order?",
+        "A": "Already sorted in descending order ",
+        "B": "Already sorted in ascending order",
+        "C": "Elements are in random order",
+        "D": "Elements are nearly sorted",
+        "category": 0,
+        "id": 246
+    },
+    {
+        "question": "The incorrect statement about graph traversal is ____.",
+        "A": "All wrong",
+        "B": "If a depth-first traversal is performed starting from any vertex in an undirected graph, all vertices in the graph can be visited, so the graph must be connected.",
+        "C": "Breadth-first traversal of a graph is a recursive process.",
+        "D": "In depth-first search of a graph, a queue is generally used to temporarily store the recently visited vertices.",
+        "category": 0,
+        "id": 247
+    },
+    {
+        "question": "The incorrect statement about graph traversal is ____.",
+        "A": "The breadth-first search tree of a graph is unique.",
+        "B": "If a depth-first traversal is performed starting from any vertex in an undirected graph, all vertices in the graph can be visited, so the graph must be connected.",
+        "C": "All wrong",
+        "D": "In depth-first search of a graph, a queue is generally used to temporarily store the recently visited vertices.",
+        "category": 0,
+        "id": 248
+    },
+    {
+        "question": "If the initial record key sequence is (345, 53, 67, 9, 62), how many rounds of allocation and collection are needed to make the initial key sequence into an ordered sequence using radix sort?",
+        "A": "1",
+        "B": "4",
+        "C": "3",
+        "D": "2",
+        "category": 1,
+        "id": 249
+    }
+]

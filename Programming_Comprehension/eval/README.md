@@ -1,6 +1,6 @@
 # Evaluation for CodeApex
 
-Open our [benchmark website](https://apex.sjtu.edu.cn/codeapex/) for evaluation
+Open our [benchmark website](https://apex.sjtu.edu.cn/codeapex/) for evaluation.
 
 ## 1. Register
 Click register button. Input your username (unique for everyone), password, confirmed password, and email, and then click "Send Verifiction Code" button and wait for email verifiction code (valid in 5 minute). Input code and register.

@@ -1,10 +1,10 @@
 # 
 
-![paper](/Users/fulingyue/Desktop/DataMining/LLM4EDU/CodeApex/figures/paper.png)
+![paper](figures/paper.png)
 
-CodeApex is a bilingual  programming evaluation benchmark for Large Language Models. It consists two basic programming tasks: programming comprehension and code generation. **Programming Comprehension Test** consists of 250 multiple choice quesitions, including conceptual understanding, commonsense reasoning, and multi-hop reasoning three question categories. **Code generation Task** consists of 477  C++ based algorithm problems, covering common algorithm knowledge points like binary search, depth-firsts-search and so on. In the future, CodeApex will publish other code-related functional tests, such as code correction.
+CodeApex is a bilingual  programming evaluation benchmark for Large Language Models. It consists two basic programming tasks: programming comprehension and code generation. **Programming Comprehension Test** consists of 250 multiple choice quesitions, including conceptual understanding, commonsense reasoning, and multi-hop reasoning three question categories. **Code generation Task** consists of 476  C++ based algorithm problems, covering common algorithm knowledge points like binary search, depth-firsts-search and so on. In the future, CodeApex will publish other code-related functional tests, such as code correction.
 
-<img src="/Users/fulingyue/Desktop/DataMining/LLM4EDU/CodeApex/figures/intro.png" alt="Overview diagram of CodeApex benchamark." style="zoom:40%;" />
+<img src="figures/intro.png" alt="Overview diagram of CodeApex benchamark." style="zoom:40%;" />
 
 
 
@@ -15,6 +15,13 @@ CodeApex is a bilingual  programming evaluation benchmark for Large Language Mod
 
 
 #### Table of Contents
+
+- Leaderboard
+- Data
+- How to Evaluation on CodeApex
+- How to Submit
+- Licenses
+- Citation
 
 
 

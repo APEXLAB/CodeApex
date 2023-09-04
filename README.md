@@ -2,7 +2,7 @@
 
 ![paper](figures/paper.png)
 
-CodeApex is a bilingual  programming evaluation benchmark for Large Language Models. It consists two basic programming tasks: programming comprehension and code generation. **Programming Comprehension Test** consists of 250 multiple choice quesitions, including conceptual understanding, commonsense reasoning, and multi-hop reasoning three question categories. **Code generation Task** consists of 476  C++ based algorithm problems, covering common algorithm knowledge points like binary search, depth-firsts-search and so on. In the future, CodeApex will publish other code-related functional tests, such as code correction.
+CodeApex is a bilingual  programming evaluation benchmark for Large Language Models. It consists two basic programming tasks: programming comprehension and code generation. **Programming Comprehension Test** consists of 250 multiple choice quesitions, including conceptual understanding, commonsense reasoning, and multi-hop reasoning three question categories. **Code generation Task** consists of 476  C++ based algorithm problems, covering common algorithm knowledge points like binary search, depth-firsts-search and so on. In the future, CodeApex will publish other code-related functional tests, such as code correction. This is an evaluation repository for the Paper "CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models".
 
 <img src="figures/intro.png" alt="Overview diagram of CodeApex benchamark." style="zoom:40%;" />
 
@@ -10,7 +10,7 @@ CodeApex is a bilingual  programming evaluation benchmark for Large Language Mod
 
 ### News
 
-- [2023.09.05] CodeApex is published on arXiv and [Github](https://github.com/APEXLAB/CodeApex.git). [Benchmark website]((https://apex.sjtu.edu.cn/codeapex/)) is open for commission now.
+- [2023.09.05] CodeApex is published on arXiv and [Github](https://github.com/APEXLAB/CodeApex.git).  [Benchmark website]((https://apex.sjtu.edu.cn/codeapex/)) is open for commission now.
 
 
 
@@ -150,4 +150,9 @@ Online evaluation of code generation tasks is being set up. Coming soon.
 
 ### Citation
 
-### 
+ Please cite using the following bibtex entry:
+
+```
+
+```
+

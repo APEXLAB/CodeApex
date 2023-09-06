@@ -10,7 +10,7 @@ CodeApex is a bilingual  programming evaluation benchmark for Large Language Mod
 
 ### News
 
-- [2023.09.05] CodeApex is published on arXiv and [Github](https://github.com/APEXLAB/CodeApex.git).  [Benchmark website]((https://apex.sjtu.edu.cn/codeapex/)) is open for commission now.
+- [2023.09.05] CodeApex is published on [arXiv](https://arxiv.org/pdf/2309.01940.pdf) and [Github](https://github.com/APEXLAB/CodeApex.git).  [Benchmark website]((https://apex.sjtu.edu.cn/codeapex/)) is open for commission now.
 
 
 
@@ -153,6 +153,13 @@ Online evaluation of code generation tasks is being set up. Coming soon.
  Please cite using the following bibtex entry:
 
 ```
-
+@misc{fu2023codeapex,
+      title={CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models}, 
+      author={Lingyue Fu and Huacan Chai and Shuang Luo and Kounianhua Du and Weiming Zhang and Longteng Fan and Jiayi Lei and Renting Rui and Jianghao Lin and Yuchen Fang and Yifan Liu and Jingkuan Wang and Siyuan Qi and Kangning Zhang and Weinan Zhang and Yong Yu},
+      year={2023},
+      eprint={2309.01940},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 

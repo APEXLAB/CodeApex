@@ -155,7 +155,7 @@ Online evaluation of code generation tasks is being set up. Coming soon.
 ```
 @misc{fu2023codeapex,
       title={CodeApex: A Bilingual Programming Evaluation Benchmark for Large Language Models}, 
-      author={Lingyue Fu and Huacan Chai and Shuang Luo and Kounianhua Du and Weiming Zhang and Longteng Fan and Jiayi Lei and Renting Rui and Jianghao Lin and Yuchen Fang and Yifan Liu and Jingkuan Wang and Siyuan Qi and Kangning Zhang and Weinan Zhang and Yong Yu},
+      author = {Fu, Lingyue and Chai, Huacan and Luo, Shuang and Du, Kounianhua and Zhang, Weiming and Fan, Longteng and Lei, Jiayi and Rui, Renting and Lin, Jianghao and Fang, Yuchen and Liu, Yifan and Wang, Jingkuan and Qi, Siyuan and Zhang, Kangning and Zhang, Weinan and Yu, Yong}, 
       year={2023},
       eprint={2309.01940},
       archivePrefix={arXiv},
